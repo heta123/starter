@@ -1,0 +1,24 @@
+{
+  "name": "bitbroker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "deploy":"gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heta123/starter.git"
+  },
+  "author": "Heta sitapara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heta123/starter/issues"
+  },
+  "homepage": "https://github.com/heta123/starter#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^2.4.2"
+  }
+}
