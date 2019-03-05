@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "deploy":"gcloud app deploy"
+    "deploy": "gcloud app deploy"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/heta123/starter#readme",
   "dependencies": {
-    "@google-cloud/storage": "^2.4.2"
+    "@google-cloud/storage": "^2.4.2",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   }
 }
