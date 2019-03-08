@@ -5,7 +5,6 @@ var app = express();
 
 
 var logger = function(req, res, next){
-    console.log('logging..');
     next();
 }
 
